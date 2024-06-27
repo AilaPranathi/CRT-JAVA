@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int p,t,r;
+        p=sc.nextInt();
+        t=sc.nextInt();
+        r=sc.nextInt();
+        float I=p*t*r/100;
+        System.out.printf("%.2f\n",I);
+        float A=p+I;
+        System.out.printf("%.2f\n",A);
+        float d=I*2/100;
+         System.out.printf("%.2f\n",d);
+          float tot=A-d;
+         System.out.printf("%.2f",tot);
+    }
+}
