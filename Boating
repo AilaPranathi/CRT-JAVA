@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n,a,c;
+        n=sc.nextInt();
+        a=sc.nextInt();
+        c=sc.nextInt();
+        int t=(a*75+c*30);
+        if(t<=n)
+        {
+            System.out.println("Boat is stable");
+        }
+        else
+        {
+           System.out.println("Boat will drown");
+        }
+    }
+}
